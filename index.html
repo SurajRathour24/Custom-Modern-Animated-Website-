@@ -1,14 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Document</title>
-</head>
-<body>
-    <h1>Hey World</h1>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <div class="container">
+          <div class="nav-wrapper d-flexbox flex-between align-items-center">
+            <div class="logo-container">
+              <img
+                src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/logo-white.svg"
+                alt="sidcup logo"
+                width="100px"
+              />
+            </div>
+            <div id="nav-items">
+              <ul>
+                <li class="nav-item"><a href="#">TOPTRACER RANGE</a></li>
+                <li class="nav-item"><a href="#">GOLF LESSONS</a></li>
+                <li class="nav-item"><a href="#">ADVENTURE GOLF</a></li>
+                <li class="nav-item"><a href="#">CAFÉ</a></li>
+                <li class="nav-item"><a href="#">EVENTS</a></li>
+                <li class="nav-item common-btn-style">
+                  <a href="#">BOOK RANGE</a>
+                </li>
+                <li class="nav-item common-btn-style">
+                  <a href="#">BOOK GOLF</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
 
+      <main id="banner">
+        <div class="video-block">
+          <video
+            src="video/banner-bg.mp4"
+            width="100%"
+            height="100%"
+            autoplay muted loop
+          ></video>
+        </div>
+        <div id="main" class="position-relative">
+          <div class="container">
+            <section class="banner-content d-flexbox flex-center align-items-center">
+              <h1 class="position-relative">EAT. DRINK. PLAY.</h1>
+              <h4>WELCOME TO SIDCUP FAMILY GOLF!</h4>
+              <p>Sidcup Family Golf is a Toptracer driving range and crazy golf venue in Sidcup, South East London. Passionate about technology, player development and making golf fun and accessible to everyone.</p>
+            </section>
+
+            <section id="about-us-section">
+
+            </section>
+          </div>
+
+        </div>
+      </main>
+    </header>
+
+    <!-------========== Gsap JS Library CDN For animatio ==================----->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-------========== Custom JS ==================----->
     <script src="js/script.js"></script>
-</body>
+  </body>
 </html>

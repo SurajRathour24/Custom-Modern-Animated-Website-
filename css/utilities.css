@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+
+/*====== Container =============*/
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.container-fluid{
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/*=========== Color =============*/
+:root{
+    --primary-sidcup-color: #95c11e;
+    --secondary-color: #039c3d;
+    --white-color: #fff;
+    --dark-color: #232323;
+}
+
+
+
+
+/*====== Typography ============*/
+h1{
+    font-size: 5rem;
+    color: var(--white-color);
+    line-height: .88;
+    font-weight: 900;
+}
+h2{
+    font-size: 4rem;
+    line-height: 1.33;
+    letter-spacing: .02em;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+h4{
+    font-size: 2rem;
+    line-height: 1.66;
+    letter-spacing: .02em;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+p {
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+
+
+/*======== Flexbox ===============*/
+.d-flexbox{
+    display: flex;
+}
+.flex-between{
+    justify-content: space-between;
+}
+.flex-center{
+    justify-content: center;
+}
+.align-items-center{
+    align-items: center;
+}
+.flex-gap-x {
+    gap: 3rem;
+}
+
+/*========== Position =============*/
+.position-relative{
+    position: relative;
+}
+.position-absolute{
+    position: absolute;
+}
+.position-fixed{
+    position: fixed;
+}
